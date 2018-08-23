@@ -11,6 +11,7 @@
                     BorderRadius="50"
                     HorizontalOptions="Center"
                     />
+            
                <StackLayout>
             <Label Text="Nombre usuario" 
                    HorizontalOptions="Center"
@@ -19,14 +20,47 @@
                  <Entry Placeholder="Ingrese Usuario" 
                         BackgroundColor="Aqua"/>
             </StackLayout>
-           <StackLayout Padding="0,30,0,0">
-                <Label Text="Edad"/>
+            
+           <StackLayout Padding="5,30,5,0" 
+                        Orientation="Horizontal">
+                
+                <Label Text="Edad" 
+                       HorizontalOptions="FillAndExpand"/>
+                
                 <Entry Placeholder="Ingrese su edad" 
-                       Keyboard="Text"
                        HorizontalOptions="FillAndExpand"
-
-                        />
+                       VerticalOptions="Center"/>
            </StackLayout>
+           <StackLayout Padding="5,10,5,0" 
+                        Orientation="Horizontal">
+
+                <Label Text="Intereses" 
+                       HorizontalOptions="FillAndExpand"/>
+                
+                <Entry Placeholder="Ingrese su Intereses" 
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+             <StackLayout Padding="5,10,5,0" 
+                        Orientation="Horizontal">
+
+                <Label Text="Aprende" 
+                       HorizontalOptions="FillAndExpand"/>
+                
+                <Entry Placeholder=" Xamarin Forms ASP.NET" 
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+             <StackLayout Padding="5,10,5,0" 
+                        Orientation="Horizontal">
+
+                <Label Text="Otros" 
+                       HorizontalOptions="FillAndExpand"/>
+                
+                <Entry Placeholder=" Xamarin Forms ASP.NET" 
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="Center"/>
+            </StackLayout>
         </StackLayout>        
     </ContentPage.Content>
 </ContentPage>
