@@ -25,7 +25,6 @@
             <Label Text="START"
                    BackgroundColor="Blue"
                    VerticalOptions="EndAndExpand"/>
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

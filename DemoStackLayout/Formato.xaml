@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DemoStackLayout.Formato">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aqua">
+            <Label HeightRequest="100"
+                   BackgroundColor="Blue"
+                   />
+            <Button HeightRequest="100" 
+                    WidthRequest="100"
+                    BackgroundColor="Green"
+                    BorderRadius="50"
+                    HorizontalOptions="Center"
+                    />
+               <StackLayout>
+            <Label Text="Nombre de usuario" 
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   />
+                
+            </StackLayout>
+        </StackLayout>        
+    </ContentPage.Content>
+</ContentPage>
