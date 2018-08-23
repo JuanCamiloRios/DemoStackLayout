@@ -12,12 +12,21 @@
                     HorizontalOptions="Center"
                     />
                <StackLayout>
-            <Label Text="Nombre de usuario" 
+            <Label Text="Nombre usuario" 
                    HorizontalOptions="Center"
                    FontSize="Large"
                    />
-                
+                 <Entry Placeholder="Ingrese Usuario" 
+                        BackgroundColor="Aqua"/>
             </StackLayout>
+           <StackLayout Padding="0,30,0,0">
+                <Label Text="Edad"/>
+                <Entry Placeholder="Ingrese su edad" 
+                       Keyboard="Text"
+                       HorizontalOptions="FillAndExpand"
+
+                        />
+           </StackLayout>
         </StackLayout>        
     </ContentPage.Content>
 </ContentPage>
