@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DemoStackLayout" x:Class="DemoStackLayout.MainPage">
+    <StackLayout Orientation="Horizontal">
+       <Button BackgroundColor="Blue" 
+               Text="Fill" 
+               VerticalOptions="Fill"/>
+        <Button BackgroundColor="Red" 
+               Text="fill" 
+               VerticalOptions="Start" />
+        <Button BackgroundColor="Blue" 
+               Text="Fill" 
+               VerticalOptions="Center" />
+        <Button BackgroundColor="Blue" 
+               Text="Fill" 
+               VerticalOptions="End" />
+    </StackLayout>
+</ContentPage>
