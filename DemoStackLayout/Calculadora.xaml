@@ -30,7 +30,8 @@
                     Grid.Row="1"
                      Grid.Column="0"
                      Text="C"
-                    FontSize="50"/>
+                    FontSize="50" 
+                    BorderColor="Black"/>
             <Button BackgroundColor="Gray"
                     Grid.Row="1"
                      Grid.Column="1"
